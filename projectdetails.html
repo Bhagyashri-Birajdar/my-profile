@@ -5,7 +5,8 @@
         <style>
             #info
             {
-                color: darkgreen;
+                /* color: darkgreen; */
+                color: #5a024e;
                 background-color: darkkhaki;
                 font-style: inherit;
             }
@@ -15,12 +16,20 @@
             color:rgb(52, 4, 184);
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
+        #name
+        {
+            color:rgba(4, 100, 15, 0.867);
+        }
+        #tool
+        {
+                color:rgb(255, 0, 0);
+        }
     </style>
     </head>
     <body>
         <h2> Project Details </h2>
         <hr>
-        <p id="info"> <strong> Name: <u> Student Management </u> </strong></p>
+        <p id="info"> <strong id="name"> Name: <u> Student Management </u> </strong></p>
         <p > <u> Environment </u>: <mark>Angular8, Typescript, Javascript(ES6), HTML, CSS, Bootstrap, GitHub, Desktop GitHub, Agile and JIRA, IDE-VS Code </mark> </p>
         <p id="info"> <b> Team size </b>:06  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <b> Duration </b>: <i>2021-1 <sup> st </sup>-July till <u> present </u> </i> </p>
         <p class="letters"> <b> Project Description: </b> This project is mainly used for student management in colleges, where it helps to manage student record like <br> student registration ,student update information and to see all his or her academic activities like score card, attendance.</p>
@@ -30,7 +39,7 @@
         <p></p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Work closely with backend developers for code integration </p>
         <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Identifying and troubleshooting issues with front end code </p>
         <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Worked on Git as a version control</p>
-        <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Used JIRA for bug tracking </p>
+        <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Used<span id="tool"> JIRA </span> for bug tracking </p>
         <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Implemented project using Agile SCRUM methodology ,involved in daily stand up meetings,sprint showcase and sprint retrospective</p>
         <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Involved in fixing technical issues</p>
     </body>
